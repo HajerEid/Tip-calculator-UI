@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hager Eid" />
+    <!--font /style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Galdeano&family=Rock+Salt&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <title>Tip calculator</title>
+</head>
+<body>
+    
+    <h1>Tip Calculator</h1>
+    
+    <main>
+        
+        <section class="left">
+
+            <div class="Bill">
+            <label for="Bill">Bill :</label>
+            <input type="number" name="Bill" class="bill" placeholder="$0.0">
+            </div>
+
+            <div class="select">
+                <label for="tip">Select Tip % :</label>
+
+                <div class="tip">
+                    <button class="percentage">5%</button>
+                    <button class="percentage">10%</button>
+                    <button class="percentage">15%</button>
+                    <button class="percentage">25%</button>
+                    <button class="percentage">50%</button>
+                
+                        <input type="number"  class="Custom" placeholder="Custom" min="1">
+                </div>
+                
+            </div>
+
+            <div class="people">
+            <label for="people">Number Of People :</label>
+            <input type="number" name="people" class="Bill-input" min="1" placeholder="0">
+            </div>
+        </section>
+
+        <section class="right">
+            <div class="Amount">
+                <div>
+                <h3>Tip Amount</h3>
+                <p>/person</p>
+                </div>
+                <p class="price">$0.00</p>
+            </div>
+            
+            <div class="Total">
+                <div>
+                <h3>Total</h3>
+                <p>/person</p>
+                </div>
+                <p class="price">$0.00</p>
+            </div>
+
+            <button type="reset" class="reset">RESET</button>
+
+        </section>
+        
+    </main>
+
+</body>
+</html>

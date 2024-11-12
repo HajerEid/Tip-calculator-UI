@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/50677/rain-after-the-rain-a-drop-of-drop-of-rain-50677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    font-family: "Zen Dots", sans-serif;
+}
+
+body h1{
+    text-align: center;
+    margin:50px auto;
+    color: #DFF2EB;
+    text-shadow:6px 7px 2px #001F3F;
+}
+main{
+    width: 80%;
+    height: 50%;
+    margin: 50px auto;
+    background-color: #CDE8E5; 
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*left side*/
+main .left{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px;
+    width: 50%;
+    
+}
+.Bill , .select , .people{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+input[name="Bill"] , [name="people"]{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #DFF2EB;
+    
+}
+input ,button{
+    border: none;
+    font-family: "Zen Dots", sans-serif;
+    border-radius: 6px;
+}
+/*tip section*/
+main .left .select{
+    display: flex;
+    flex-direction: column;
+    
+}
+main .left .tip{
+    margin: 5px;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
+}
+main .left .tip .percentage{
+    padding: 20px;
+    margin: 5px;
+    width: 25%;
+    cursor: pointer; 
+    background-color: #7AB2D3;   
+    
+}
+main .left .tip .Custom{
+    font-size: 12.7px;
+    padding: 5px;
+    width: 25%;
+    height: 43%;
+    margin: 0 5px;
+    border: 2px solid #7AB2D3;
+    box-sizing: border-box;
+}
+main .left .people{
+    display: flex;
+}
+/*right side*/
+main .right{
+    display: flex;
+    flex-direction: column;
+    background-color: #7AB2D3;
+    box-shadow: 0 9px 7px rgba(0, 0, 0, 0.5);
+    border-radius:50px;
+    padding: 30px;
+    margin-left: 10px;
+    width: 50%;
+}
+.Amount , .Total{
+    padding: 20px;
+    margin: 50px 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+
+}
+.right p{
+color: #B9E5E8;
+}
+.right .price{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #4A628A;
+}
+.right .reset{
+    width: 80%;
+    margin: 50px;
+    padding: 15px 10px;
+    background-color: #4A628A;
+    color: white;
+    font-size: larger;
+}
